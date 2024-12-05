@@ -20,4 +20,15 @@ public class ClasaParinte
    public char getP3(){
        return p3;
    }
+   
+   ClasaParinte(ClasaParinte c) {
+        this.p1 = c.p1;
+        this.p2 = c.p2;
+        this.p3 = c.p3;
+    }
+ 
+    @Override
+    public String toString() {
+        return "p1 = " + p1 + " | p2 = " + p2 + " | p3 = " + p3;
+    }
 }
