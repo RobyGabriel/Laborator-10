@@ -58,4 +58,12 @@ public class ClasaParinte {
             System.out.println(p3);
         }
     }
+
+    public void setParinteP2(float p2) {
+        if (p2 >= 0.0f && p2 <= 100.0f) {
+            this.p2 = p2;
+        } else {
+            this.p2 = 0.0f;
+        }
+    }
 }
