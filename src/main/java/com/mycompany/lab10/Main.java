@@ -1,4 +1,5 @@
 package com.mycompany.lab10;
+import java.util.ArrayList;
 
 public class Main {
 
@@ -32,7 +33,14 @@ public class Main {
         vectorParinte[3] = parinte4;
         vectorParinte[4] = parinte5;
         
-    ClasaParinte.setParinteP3('b'); 
-        System.out.println("Valoarea lui p3: " + parinte.getP3());
-    }
+        ArrayList <ClasaCopil> vectorCopil=new ArrayList();
+        vectorCopil.add(copil1);
+        vectorCopil.add(copil2);
+        vectorCopil.add(copil3);
+        vectorCopil.add(copil4);
+        vectorCopil.add(copil5);
+        
+    parinte1.filterParinteP3();
+   
+    
 }
