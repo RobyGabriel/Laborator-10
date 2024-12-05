@@ -1,5 +1,7 @@
 package com.mycompany.lab10;
 
+import java.util.ArrayList;
+
 public class ClasaParinte {
 
     private String p1;
@@ -59,11 +61,13 @@ public class ClasaParinte {
         }
     }
 
-    public void filterParinteP2(float p2) {
+    public void filterP2() {
         if (p2 >= 0.0f && p2 <= 100.0f) {
             this.p2 = p2;
+            System.out.println("Valoarea lui p2 a fost setata : " + this.p2);
         } else {
             this.p2 = 0.0f;
+            System.out.println("Valoarea lui p2 este în afara intervalului (0.0 - 100.0). " + this.p2);
         }
     }
 }

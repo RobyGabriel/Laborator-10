@@ -1,5 +1,7 @@
 package com.mycompany.lab10;
 
+import java.util.ArrayList;
+
 public class ClasaCopil extends ClasaParinte {
 
     private byte c1;
@@ -55,4 +57,5 @@ public class ClasaCopil extends ClasaParinte {
     public String toString() {
         return super.toString() + "ClasaCopil [c1=" + c1 + ", c2=" + c2 + ", c3=" + c3 + "]";
     }
+
 }
