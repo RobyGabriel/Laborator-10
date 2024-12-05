@@ -2,9 +2,9 @@ package com.mycompany.lab10;
 
 public class ClasaParinte {
 
-    String p1;
-    float p2;
-    char p3;
+    private String p1;
+    private float p2;
+    private char p3;
 
     public ClasaParinte() {
         this.p1 = "";
@@ -17,7 +17,7 @@ public class ClasaParinte {
         this.p2 = p2;
         this.p3 = p3;
     }
-    
+
     ClasaParinte(ClasaParinte c) {
         this.p1 = c.p1;
         this.p2 = c.p2;
@@ -52,12 +52,10 @@ public class ClasaParinte {
     public String toString() {
         return "p1 = " + p1 + " | p2 = " + p2 + " | p3 = " + p3;
     }
-    
-    public void setparinteP3(char p3) {
+
+    public void setParinteP3() {
         if (p3 == 'a' || p3 == 'b' || p3 == 'c') {
-            this.p3 = p3;
-        } else {
-            System.out.println("Valoare invalida, p3 trebuie să fie 'a', 'b' sau 'c'.");
+            System.out.println(p3);
         }
     }
 }
