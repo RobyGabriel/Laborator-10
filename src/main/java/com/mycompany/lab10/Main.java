@@ -55,8 +55,12 @@ public class Main {
     }
 
     public static void afisareParinte(ClasaParinte[] vectorParinte) {
+       System.out.println("================");
         for (ClasaParinte parinte : vectorParinte) {
-            System.out.println(parinte);
+            //System.out.println(parinte);
+            if(parinte.getP1().contains("P") && parinte.getP3() == 'A' ){
+                System.out.println(parinte);
+            }
         }
     }
 

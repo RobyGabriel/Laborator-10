@@ -70,4 +70,6 @@ public class ClasaParinte {
             System.out.println("Valoarea lui p2 este în afara intervalului (0.0 - 100.0). " + this.p2);
         }
     }
+    
+    
 }
