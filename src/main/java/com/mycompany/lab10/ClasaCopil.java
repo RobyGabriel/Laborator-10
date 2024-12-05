@@ -53,6 +53,6 @@ public class ClasaCopil extends ClasaParinte {
 
     @Override
     public String toString() {
-        return "ClasaCopil [c1=" + c1 + ", c2=" + c2 + ", c3=" + c3 + "]";
+        return super.toString() + "ClasaCopil [c1=" + c1 + ", c2=" + c2 + ", c3=" + c3 + "]";
     }
 }
