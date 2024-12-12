@@ -52,6 +52,7 @@ public class Main {
 
         afisareParinte(vectorParinte);
         afisareVectorCopil(vectorCopil);
+        Interfata a=new Interfata();
     }
 
     public static void afisareParinte(ClasaParinte[] vectorParinte) {
@@ -69,4 +70,5 @@ public class Main {
             System.out.println(copil.toString());
         }
     }
+    
 }
