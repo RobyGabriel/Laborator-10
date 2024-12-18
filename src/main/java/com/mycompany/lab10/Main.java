@@ -52,7 +52,7 @@ public class Main {
 
         afisareParinte(vectorParinte);
         afisareVectorCopil(vectorCopil);
-        Interfata a=new Interfata();
+        Interfata a=new Interfata(vectorParinte, vectorCopil);
     }
 
     public static void afisareParinte(ClasaParinte[] vectorParinte) {

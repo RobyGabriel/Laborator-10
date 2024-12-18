@@ -13,7 +13,12 @@ public class ClasaParinte {
         this.p2 = 0.0f;
         this.p3 = '\0';
     }
-
+    public ClasaParinte(String p1, float p2) {
+        this.p1 = p1;
+        this.p2 = p2;
+        this.p3 = '\0';
+    }
+    
     public ClasaParinte(String p1, float p2, char p3) {
         this.p1 = p1;
         this.p2 = p2;
